@@ -6,14 +6,12 @@ import Header from '../components/header'
 import './index.css'
 
 const Layout = ({ children, data }) => (
+  
+
+  
   <div>
-    <div className="Hero">
-      <div className="HeroGroup">
-      <h1>Welcome to Digital Product Design</h1>
-      <p>We're excited that you're here. Let's Get Started.</p>
-      {/* <Link to="#">See your syllabus</Link> */}
-        </div>
-      </div>
+    <Header/>
+    
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
@@ -43,3 +41,5 @@ export const query = graphql`
     }
   }
 `
+
+
