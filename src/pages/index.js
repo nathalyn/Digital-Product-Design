@@ -1,22 +1,24 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Card from '../components/Card';
+import { disconnect } from 'cluster';
 
 const IndexPage = () => (
   <div>
      <div className="Hero">
       <div className="HeroGroup">
       <h1>Welcome to Digital Product Design</h1>
-      <p>We're excited that you're here. Let's Get Started.</p>
-      <Link to="/video">Watch the video</Link>
-<div className="Logos">
+      <p>We're excited that you're here. Let's get started.</p>
+      <Link to="\"><button>Watch the video</button></Link>
+      <Link to="\"><button>Watch the video</button></Link>
+{/* <div className="Logos">
 <img src={require('../images/logo-sketch.png')} width="50" />
   <img src={require('../images/logo-figma.png')} width="50" />
   <img src={require('../images/logo-studio.png')} width="50" />
   <img src={require('../images/logo-framer.png')} width="50" />
   <img src={require('../images/logo-react.png')} width="50" />
   <img src={require('../images/logo-swift.png')} width= "50" />
- </div>
+ </div> */}
 
       <svg width="100%" height="172" viewBox="0 0 100% 172" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill="white">
@@ -36,7 +38,26 @@ const IndexPage = () => (
         </div>   
       </div>
  
-<div className="Cards">
+<div className="about-section">
+
+<div className="about-group">
+
+<div className="text-section">
+    <h2>this is a title</h2>
+  </div>
+
+{/* <text-pic-group
+  title="This is a title"
+  text="We’ll be talking about what it takes to design human-centered, goal-driven  and beautiful apps and websites. We’ll start all the way from ideating a project to designing it to highest fidelity. "
+  image=" image={require('../images/wallpaper.jpg')} "
+  /> */}
+
+  
+  </div>
+
+</div>
+
+{/* <div className="Cards">
   <h2>11 courses, more coming</h2>
   <div className="CardGroup">
       <Card 
@@ -69,7 +90,7 @@ const IndexPage = () => (
         image={require('../images/wallpaper.jpg')} 
         />
     </div>
-  </div>
+  </div>  */}
 
   </div>
 )

@@ -4,10 +4,19 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "child_process": "^1.0.2",
+    "cluster": "^0.7.7",
+    "dgram": "^1.0.1",
+    "dns": "^0.2.2",
+    "fs": "0.0.1-security",
     "gatsby": "^1.9.277",
     "gatsby-link": "^1.6.46",
     "gatsby-plugin-react-helmet": "^2.0.11",
+    "module": "^1.2.5",
+    "net": "^1.0.2",
     "react-helmet": "^5.2.0",
+    "repl": "^0.1.3",
+    "tap": "^12.0.1",
     "url-loader": "^1.0.1"
   },
   "keywords": [
